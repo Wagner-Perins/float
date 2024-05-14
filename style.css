@@ -1,0 +1,33 @@
+.float .left{
+    float: left;
+    background-color: darkcyan;
+    width: 100px;
+    height: 100px;
+    font-family: fantasy;
+    font-size: 20px;
+    color: darkgoldenrod;
+}
+
+.float .right{
+    float: right;
+    background-color: darkgoldenrod;
+    width: 100px;
+    height: 100px;
+    font-family: fantasy;
+    font-size: 20px;
+    color: darkcyan;
+}
+
+ .float::after{
+    content: "";
+    display: block;
+    clear: both;
+} 
+
+img{
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin-right: 15px;
+}
+
